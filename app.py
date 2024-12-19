@@ -1,10 +1,13 @@
 #I am so lost
 #do I need to have VS Code or just VS?
 
+from PIL import Image
 import streamlit as st
 import emoji
 
 st.set_page_config(page_title="All About Me", page_icon=":sneezing_face:", layout="wide")
+
+img_monkey = Image.open("images/monkey.png")
 
 # ----HEADER SECTION----
 with st.container():
