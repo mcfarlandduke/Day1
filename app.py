@@ -3,7 +3,6 @@
 
 from PIL import Image
 import streamlit as st
-import emoji
 
 st.set_page_config(page_title="All About Me", page_icon=":sneezing_face:", layout="wide")
 
@@ -26,8 +25,8 @@ with st.container():
         st.write(
             """
             Because I basically have zero technical skills to show off here are random ones:
-            - I can juggle up to 4 items :clown_face:
-            - I benchpress 225 lb :muscle:
+            - I can juggle up to 4 items 
+            - I benchpress 225 lb 
             - I cook often (not just ramen)
             - I enjoy coding, even though I ask Copilot for help
             
