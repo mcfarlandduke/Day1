@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="All About Me", page_icon="##", layout="wide")
 
 img_monkey = Image.open("images/monkey.png")
-img_headshot = Image.open("images/smaller_headshot.png")
+img_headshot = Image.open("images/Smaller_Headshot.png")
 
 # ----HEADER SECTION----
 with st.container():
