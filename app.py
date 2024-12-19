@@ -8,6 +8,7 @@ import emoji
 st.set_page_config(page_title="All About Me", page_icon=":sneezing_face:", layout="wide")
 
 img_monkey = Image.open("images/monkey.png")
+img_headshot = Image.open("images/headshot.png")
 
 # ----HEADER SECTION----
 with st.container():
@@ -33,3 +34,16 @@ with st.container():
             Now you might think I am the whole package right now, but just wait till I can make this without a youtube tutorial
             """
         )
+    
+    with right_column: 
+        st.header("My Best Photo")
+        st.image(img_headshot)
+
+
+
+with st.container(): 
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Monkey")
+        st.write("Because I think its funny")
+        st.image(img_monkey)
